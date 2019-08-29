@@ -193,7 +193,7 @@ height: 125px;
 overflow: auto;
 
 /* Visual */
-background-color: #fffcf7;
+background-image: linear-gradient(to bottom, #fcfde3, rgb(255, 236, 129));
 }
 
 #chat-bar {
