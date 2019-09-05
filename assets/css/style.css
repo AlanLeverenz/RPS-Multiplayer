@@ -1,14 +1,11 @@
-body {
-    background-image: url(/assets/images/papyrus.png)
-}
 
 .container {
     padding-top: 20px;
     margin: 0 auto;
     width: 1024px;
-    /* Typography */
     text-align: center;
     font-family: 'Blinker', sans-serif;
+    background-image: linear-gradient( to bottom, #b8d8fd, #ffffff);
 }
 
 header {
@@ -17,48 +14,32 @@ header {
 }
 
 h1 {
-    /* Visual */
     padding: 15px;
-  
-    /* Typography */
     font-size: 36px;
     text-align: center;
 }
   
 h2 {
-    /* Typography */
     font-size: 24px;
 }
   
 #swap-zone {
-    /* Box-model */
     width: 75%;
-  
-    /* Positioning */
     margin: 25px auto;
-  }
+}
   
-  #swap-zone input {
-    /* Box-model */
+#swap-zone input {
     width: 200px;
     height: 36px;
-  
-    /* Typography */
     font-size: 30px;
-  }
+}
 
-  #swap-zone button {
-    /* Box-model */
-   /* width: 100px; */
+#swap-zone button {
     height: 36px; 
-  
-    /* Typography */
     font-size: 22px;
-  
-    /* Positioning */
     vertical-align: top;
     padding: 0 12px;
-  } 
+} 
 
 #righteous {
     font-family: 'Righteous',cursive;
@@ -73,19 +54,13 @@ h2 {
 }
 
 #current-turn {
-    /* Box-model */
     width: 75%;
-
-    /* Positioning */
     margin: 15px auto;
-
-    /* Typography */
     text-align: center;
     font-size: 22px;
 }
 
 #game-div {
-    /* Typography */
     text-align: center;
 }
 
@@ -93,133 +68,91 @@ h2 {
 #result,
 #player2 {
     position: relative;
-    /* display: inline-block; */
-
-    /* Box-model */
     width: 100%;
     height: 300px;
     box-sizing: border-box;
     padding: 10px;
-
-    /* Positioning */
     margin: 2%;
-
-    /* Typography */
     text-align: center;
     vertical-align: top;
-
-    /* Visual */
-    border: 5px dotted rgb(176, 158, 255);
+    border: 5px dotted rgb(156, 136, 241);
 }
 
 #player1-name {
-    /* Positioning */
     margin-bottom: 15px;
-
-    /* Typography */
     font-size: 28px;
     color: #fa3232;
 }
 
 #player2-name {
-    /* Positioning */
     margin-bottom: 15px;
-
-    /* Typography */
     font-size: 28px;
     color: #46b605;
 }
 
 #player1-chosen,
 #player2-chosen {
-    /* Positioning */
     margin-top: 25px;
-
-    /* Typography */
     font-size: 36px;
 }
 
 li {
-    /* Positioning */
     margin: 6px 0;
     padding: 6px;
-    
-    /* Typography */
     font-size: 20px;
     cursor: pointer;
     }
     
     .outcomes {
-    /* Positioning */
     position: absolute;
     bottom: 10px;
-    
-    /* Box-model */
     width: 90%;
-    
-    /* Typography */
     text-align: center;
     }
     
-    .outcome-trackers { /* Box-model */
+    .outcome-trackers { 
     display: inline-block;
     }
     
     #result h2 {
-    /* Positioning */
     margin-top: 20px;
-    
-    /* Typography */
     font-size: 36px;
     }
       
       
 #chat {
-    /* Positioning */
     position: relative;
-  
-    /* Box-model */
-    width: 600px;
+    width: 500px;
     height: 150px;
-  
-    /* Visual */
     padding: 10px;
     margin: 20px auto;
 }
 
 #chat-messages {
-/* Box-model */
 height: 125px;
 overflow: auto;
-
-/* Visual */
-background-image: linear-gradient(to bottom, #fcfde3, rgb(255, 236, 129));
+background-color: #bae7f5;
 }
 
 #chat-bar {
-/* Positioning */
 position: absolute;
 bottom: 10px;
 }
 
 #chat-input {
-/* Box-model */
-width: 490px;
+width: 390px;
 }
 
 #chat-send {
-/* Box-model */
 width: 70px;
 padding: 2px 12px;
 }
 
 .player1 {
-/* Visual */
 color: #419d78;
 }
 
 .player2 {
-/* Visual */
 color: #2d3047;
 }
 
